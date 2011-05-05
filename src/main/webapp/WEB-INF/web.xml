@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4"
+         xmlns="http://java.sun.com/xml/ns/j2ee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+
+    <display-name>Tune Server</display-name>
+    <context-param>
+        <param-name>tuneserver.home.dir</param-name>
+        <param-value>/Users/amir</param-value>
+    </context-param>
+    <context-param>
+        <param-name>tuneserver.music</param-name>
+        <param-value>/Users/amir/Music/Albums</param-value>
+    </context-param>
+    <listener>
+        <listener-class>net.studio20design.tuneserver.ServerListener</listener-class>
+    </listener>
+</web-app>

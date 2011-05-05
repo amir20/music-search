@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    color: #fff;
+    font-family: arial;
+    font-size: 12px;
+    height: 100%;
+    background: #21385a url("../images/background.jpg") no-repeat;
+}
+
+#background {
+    background: url(../images/footer-circles.png) no-repeat bottom right;
+    min-height: 100%;
+    padding: 0 10%;
+}
+
+body a {
+    color: #ffea00;
+    font-weight: bold;
+}
+
+body a:hover {
+    color: #fceb2a;
+    text-decoration: none;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+#menu {
+    text-align: right;
+    padding-top: 10px;
+}
+
+#menu a {
+    color: #dadbde;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#menu a:hover {
+    text-decoration: underline;
+}
+
+#search {
+    text-align: right;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+#search input[type=submit] {
+    color: transparent;
+    background-image: url("../images/search-button.jpg");
+    width: 23px;
+    height: 23px;
+    border: none;
+    margin-left: 10px;
+}
+
+.album-art {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: #fff solid 1px;
+}
+
+#songs {
+    float: left;
+    width: 100%;
+}
+
+#album li.song, #songs li.song, ul#song {
+    float: left;
+    width: 300px;
+    margin: 16px 0;
+}
+
+ul#song {
+    font-size: 18px;
+}
+
+li {
+    list-style: none;
+}
+
+a img {
+    border: none;
+}
+
+#progress {
+    padding: 1px;
+    border: #fff solid 1px;
+}
+
+#progress #bar {
+    background-color: #fff;
+    height: 8px;
+    color: #333;
+    font-size: 8px;
+    text-align: center;
+}
+
+#settings, .popup {
+    background: url(../images/popup.png) no-repeat;
+    width: 630px;
+    height: 299px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+div.album-group {
+    float: left;
+    width: 50%;
+    margin-top: 50px;
+    min-height: 150px;
+}
+
+a.album, a.artist {
+    color: #fff;
+    border-bottom: #fff dotted 1px;
+    text-decoration: none;
+    font-style: italic;
+}
+
+small, .small {
+    font-style: italic;
+    font-size: 14px;
+}
+
+span.small{
+    font-size: 12px;
+}
+
+.module{
+    font-size: 11px;
+}
+
+.module h3{
+    font-size: 14px;
+    border-bottom:#fff solid 2px;
+    margin-bottom: 5px;
+}
+
+.module li{
+    list-style:circle;
+    margin-left: 15px;
+}
+
+.player{
+    margin-top:100px;
+}
+
+
+.breadcrumb {
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 25px;
+}
+
+.breadcrumb a {
+    color: #fff;
+    border-bottom: #fff dotted 1px;
+    text-decoration: none;
+}
